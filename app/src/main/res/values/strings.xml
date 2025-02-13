@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QuoteBox</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="onesignal_notification_accent_color">FF00FF00</string>
+    <string name="facebook_app_id">964517299062738</string>
+    <string name="default_web_client_id">919822363937-vd44cm3es16a949ls4uk9bnpcq1vdchs.apps.googleusercontent.com</string>
+    <string name="bannerAd">ca-app-pub-5211687155804948/4336633236</string>
+    <!--<string name="bannerAd">ca-app-pub-3940256099942544/6300978111</string>--> <!--Test Ad-->
+    <string name="advanceAd">ca-app-pub-5211687155804948/2651886593</string>
+    <!--<string name="advanceAd">ca-app-pub-3940256099942544/2247696110</string>--> <!--Test Ad-->
+</resources>

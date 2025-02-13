@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "919822363937",
+    "project_id": "quotebox-72af9",
+    "storage_bucket": "quotebox-72af9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919822363937:android:e51e11b80b553074b06260",
+        "android_client_info": {
+          "package_name": "quotebox.daily_quotes_for_you"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919822363937-463gjmbpqmjd324br6hj8jc1brlk9670.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "quotebox.daily_quotes_for_you",
+            "certificate_hash": "467af7c64390ec6101798bceb43d158c5f7b62e3"
+          }
+        },
+        {
+          "client_id": "919822363937-pp7241vn7h7in085dqf4okvfee79trar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "quotebox.daily_quotes_for_you",
+            "certificate_hash": "6eda84219c9910a5dc07e657e35fd7542d47ae9b"
+          }
+        },
+        {
+          "client_id": "919822363937-r9hhnak7eugpagpcbhi7eie0ct7uv1d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "quotebox.daily_quotes_for_you",
+            "certificate_hash": "72e9288e2b2d856d6c6c295bc660d5d8b4d4cd6c"
+          }
+        },
+        {
+          "client_id": "919822363937-vd44cm3es16a949ls4uk9bnpcq1vdchs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2j2dCTx9trVzFehRvh-v0PNwISIZsIPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919822363937-vd44cm3es16a949ls4uk9bnpcq1vdchs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919822363937:android:30ca6f44cef16a1ab06260",
+        "android_client_info": {
+          "package_name": "quotebox.daily_suvichar_for_you"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919822363937-vd44cm3es16a949ls4uk9bnpcq1vdchs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2j2dCTx9trVzFehRvh-v0PNwISIZsIPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919822363937-vd44cm3es16a949ls4uk9bnpcq1vdchs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

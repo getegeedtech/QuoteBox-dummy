@@ -1,0 +1,54 @@
+[versions]
+agp = "8.5.2"
+firebaseBom = "33.5.1"
+firebaseDynamicLinks = "22.1.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.1.4"
+photoview = "2.3.0"
+picasso = "2.5.2"
+playServicesAds = "23.3.0"
+playServicesAuth = "21.2.0"
+styleabletoast = "2.4.0"
+ucrop = "2.2.6"
+volley = "1.2.1"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.1.0"
+firebaseAnalytics = "22.1.2"
+firebaseMessaging = "24.0.3"
+lottie = "4.0.0"
+firebase-crashlytics = "19.4.0"
+
+[libraries]
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-dynamic-links = { module = "com.google.firebase:firebase-dynamic-links", version.ref = "firebaseDynamicLinks" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+
+photoview = { module = "com.github.chrisbanes:PhotoView", version.ref = "photoview" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+styleabletoast = { module = "io.github.muddz:styleabletoast", version.ref = "styleabletoast" }
+ucrop = { module = "com.github.yalantis:ucrop", version.ref = "ucrop" }
+volley = { module = "com.android.volley:volley", version.ref = "volley" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics", version.ref = "firebase-crashlytics" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

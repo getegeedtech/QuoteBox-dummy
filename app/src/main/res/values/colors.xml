@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#441488</color>
+    <color name="colorPrimaryDark">#441488</color>
+    <color name="colorAccent">#2C074E</color>
+    <color name="black">#000000</color>
+    <color name="txtBlack">#252525</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorGrey">#F4F4F4</color>
+    <color name="color_app_font_news_secondary">#AAA8A8</color>
+    <color name="colorStar">#ffc32d</color>
+    <color name="colorLight">#AFD89E</color>
+    <color name="colordarkblue">#241333</color>
+    <color name="colordarkblue2">#041125</color>
+    <color name="green">#09880E</color>
+    <color name="reds">#F30000</color>
+    <color name="lightGreen">#E6FAE7</color>
+    <color name="lightBlue">#D8EBFA</color>
+    <color name="colorPrice">#cc000000</color>
+    <color name="colorylet">#e44c0b</color>
+    <color name="red">#EC5D5D</color>
+    <color name="purple_500">#1a2a3a</color>
+    <color name="purple_700">#1a2a3a</color>
+    <color name="transparentBlack">#40000000</color>
+    <color name="transparentDarkBlack">#73000000</color>
+    <color name="transparentProfile">#E6000000</color>
+    <color name="selected">#FAE7E7</color>
+    <color name="selectedPlaced">#fff7ef</color>
+    <color name="amBlue">#0097A7</color>
+    <color name="color_m11">#df762a</color>
+    <color name="cl14">#2E708C</color>
+    <color name="category">#F4F5F7</color>
+    <color name="categoryText">#5C606A</color>
+
+    <color name="login_form_details">#ccffffff</color>
+    <color name="login_form_details_light">#1affffff</color>
+    <color name="login_form_details_medim">#66ffffff</color>
+
+    <color name="cl4">#554469</color>
+    <color name="colorBackground">#59000000</color>
+    <color name="lightBackground">#F6F6F6</color>
+    <color name="primaryText">#1F1E1E</color>
+    <color name="secondaryText">#2D2B2B</color>
+    <color name="pink">#F35221</color>
+    <color name="pink_200">#EA5C31</color>
+
+    <color name="btn1">#FFFFFF</color>
+    <color name="btn2">#FAB0B0</color>
+    <color name="btn3">#B0FAEB</color>
+    <color name="btn4">#B0C3FA</color>
+    <color name="btn5">#E4B0FA</color>
+    <color name="btn6">#FAD6B0</color>
+    <color name="btn7">#B0FAE9</color>
+    <color name="btn8">#D7B0FA</color>
+    <color name="btn9">#FAB0EE</color>
+    <color name="btn10">#B0FACE</color>
+
+    <color name="profile1">#000000</color>
+    <color name="profile2">#9C1B1B</color>
+    <color name="profile3">#825114</color>
+    <color name="profile4">#6F8416</color>
+    <color name="profile5">#458617</color>
+    <color name="profile6">#158260</color>
+    <color name="profile7">#197788</color>
+    <color name="profile8">#165186</color>
+    <color name="profile9">#122184</color>
+    <color name="profile10">#441488</color>
+    <color name="profile11">#6C1280</color>
+    <color name="profile12">#801268</color>
+    <color name="profile13">#741335</color>
+    <color name="profile14">#77132A</color>
+
+</resources>

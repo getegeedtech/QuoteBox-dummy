@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboed"
+            android:icon="@drawable/dashboard"
+            android:title="Home"
+            tools:ignore="HardcodedText" />
+        <item
+            android:icon="@drawable/cake"
+            android:id="@+id/cake"
+            android:title="Birthday Wishes"
+            tools:ignore="HardcodedText" />
+        <item
+            android:icon="@drawable/calendar"
+            android:id="@+id/special"
+            android:title="Day Special"
+            tools:ignore="HardcodedText" />
+        <item
+            android:icon="@drawable/sunny"
+            android:id="@+id/morning"
+            android:title="Good Morning"
+            tools:ignore="HardcodedText" />
+        <item
+            android:icon="@drawable/sunny_snowing"
+            android:id="@+id/evening"
+            android:title="Good Evening"
+            tools:ignore="HardcodedText" />
+        <item
+            android:icon="@drawable/ios_share"
+            android:id="@+id/refer"
+            android:title="Refer and Earn"
+            tools:ignore="HardcodedText" />
+    </group>
+    <item android:title="Communicate"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:icon="@drawable/person_3"
+                android:id="@+id/profile"
+                android:title="Profile"/>
+            <item
+                android:icon="@drawable/help"
+                android:id="@+id/help"
+                android:title="Help &amp; Support"/>
+            <item
+                android:icon="@drawable/share"
+                android:id="@+id/share"
+                android:title="Share the App"/>
+            <item
+                android:icon="@drawable/lock"
+                android:id="@+id/logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>

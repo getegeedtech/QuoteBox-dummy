@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        tools:ignore="UselessParent">
+        <android.view.TextureView
+            android:id="@+id/textureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+        <RelativeLayout
+            android:id="@+id/animation1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_marginBottom="@dimen/_50dp"
+            android:layout_width="@dimen/_150dp"
+            android:layout_height="@dimen/_150dp">
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/profile1" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_centerInParent="true"
+                android:layout_width="@dimen/_120dp"
+                android:layout_height="@dimen/_120dp"
+                app:cardCornerRadius="@dimen/_60dp">
+                <ImageView
+                    android:id="@+id/prot1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@color/profile1"
+                    android:scaleType="centerCrop"
+                    android:importantForAccessibility="no" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/textBottom"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5dp"
+            android:background="@color/transparentProfile">
+            <TextView
+                android:id="@+id/vname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:paddingStart="@dimen/_5dp"
+                android:paddingEnd="@dimen/_5dp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="18sp"
+                android:autoSizeMaxTextSize="25sp"
+                android:autoSizeStepGranularity="1sp"
+                tools:ignore="HardcodedText"
+                android:text="Ved Prakash"
+                tools:targetApi="o" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Video"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
